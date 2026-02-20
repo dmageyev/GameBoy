@@ -1,5 +1,5 @@
-// Space Invaders v1 - GameBoy (Arduino Nano)
-// Початкова версія гри "Космічні загарбники"
+// Platformer v1 - GameBoy (Arduino Nano)
+// Початкова версія гри "Платформер"
 
 void setup() {
   // Ініціалізація дисплею, кнопок та інших периферійних пристроїв

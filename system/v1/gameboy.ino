@@ -8,8 +8,8 @@ void setup() {
 
 void loop() {
   // Обробка вибору гри у головному меню:
-  //   1. Snake         — Змійка
-  //   2. Tetris        — Тетріс
-  //   3. Pong          — Понг
-  //   4. Space Invaders — Космічні загарбники
+  //   1. Racer      — Гонки
+  //   2. Tetris     — Тетріс
+  //   3. Snake      — Змійка
+  //   4. Platformer — Платформер
 }

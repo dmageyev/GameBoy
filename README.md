@@ -14,10 +14,10 @@ GameBoy/
 │   ├── tetris/             # Тетріс
 │   │   ├── v1/
 │   │   └── README.md
-│   ├── pong/               # Понг
+│   ├── racer/              # Гонки
 │   │   ├── v1/
 │   │   └── README.md
-│   └── space_invaders/     # Космічні загарбники
+│   └── platformer/         # Платформер
 │       ├── v1/
 │       └── README.md
 └── system/                 # Єдина система з головним меню
@@ -29,10 +29,10 @@ GameBoy/
 
 | Гра                    | Каталог                      |
 |------------------------|------------------------------|
-| Змійка                 | `games/snake/`               |
+| Гонки                  | `games/racer/`               |
 | Тетріс                 | `games/tetris/`              |
-| Понг                   | `games/pong/`                |
-| Космічні загарбники    | `games/space_invaders/`      |
+| Змійка                 | `games/snake/`               |
+| Платформер             | `games/platformer/`          |
 
 ## Версіонування
 

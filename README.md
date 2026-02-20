@@ -15,7 +15,10 @@ GameBoy/
 │   │   ├── v1/
 │   │   └── README.md
 │   ├── racer/              # Гонки
-│   │   ├── v1/
+│   │   ├── v1/racer/
+|   |   |   └── racer.ino
+│   │   ├── v2/racer/
+|   |   |   └── racer.ino
 │   │   └── README.md
 │   └── platformer/         # Платформер
 │       ├── v1/
@@ -27,12 +30,12 @@ GameBoy/
 
 ## Ігри
 
-| Гра                    | Каталог                      |
-|------------------------|------------------------------|
-| Гонки                  | `games/racer/`               |
-| Тетріс                 | `games/tetris/`              |
-| Змійка                 | `games/snake/`               |
-| Платформер             | `games/platformer/`          |
+| Гра                    | Каталог                                          |
+|------------------------|--------------------------------------------------|
+| Гонки                  | [`games/racer/`](games/racer/README.md)          |
+| Тетріс                 | [`games/tetris/`](games/tetris/README.md)        |
+| Змійка                 | [`games/snake/`](games/snake/README.md)          |
+| Платформер             | [`games/platformer/`](games/platformer/README.md)|
 
 ## Версіонування
 

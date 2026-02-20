@@ -30,12 +30,12 @@ GameBoy/
 
 ## Ігри
 
-| Гра                    | Каталог                                          |
-|------------------------|--------------------------------------------------|
-| Гонки                  | [`games/racer/`](games/racer/README.md)          |
-| Тетріс                 | [`games/tetris/`](games/tetris/README.md)        |
-| Змійка                 | [`games/snake/`](games/snake/README.md)          |
-| Платформер             | [`games/platformer/`](games/platformer/README.md)|
+| Гра                    | Каталог                                 |
+|------------------------|-----------------------------------------|
+| Гонки                  | [`games/racer/`](games/racer/)          |
+| Тетріс                 | [`games/tetris/`](games/tetris/)        |
+| Змійка                 | [`games/snake/`](games/snake/)          |
+| Платформер             | [`games/platformer/`](games/platformer/)|
 
 ## Версіонування
 
@@ -43,4 +43,4 @@ GameBoy/
 
 ## Бібліотеки
 
-Усі Arduino-бібліотеки, необхідні для проекту, зберігаються у каталозі [`lib/`](lib/README.md).
+Усі Arduino-бібліотеки, необхідні для проекту, зберігаються у каталозі [`lib/`](lib/).

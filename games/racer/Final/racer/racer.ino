@@ -22,12 +22,14 @@ void loop() {
   mainRaicing();
 }
 
-void mainRaicing() {
+void mainRaicing() 
+{
   enemy_x = random(0, 10);
   if (enemy_x > 5) enemy_x = 2;
   else enemy_x = 5;
 
-  for (int enemy_y = 0; enemy_y < 16; enemy_y++) {
+  for (int enemy_y = 0; enemy_y < 16; enemy_y++) 
+  {
     enemyCar(enemy_x, enemy_y);
 
     createLine(enemy_y);
@@ -130,7 +132,8 @@ void clearLine(int y) {
   gb.wipePoint(7, y + 2);
 }
 
-bool Collision(int p_x, int p_y, int e_x, int e_y) {
+bool Collision(int p_x, int p_y, int e_x, int e_y) 
+{
   if (p_x == e_x && p_y <= e_y) return true;
   return false;
 }

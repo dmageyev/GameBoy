@@ -102,8 +102,14 @@ void drawSnake() {
   }
 }
 
-void drawFruit(){
-  gb.drawPoint(eatX, eatY);
+void drawFruit() {
+  state = !state;
+  if ( state == true) {
+    gb.drawPoint(eatX, eatY);
+  }
+  else {
+    gb.wipePoint(eatX, eatY);
+  }
 }
 
 void loop() {
